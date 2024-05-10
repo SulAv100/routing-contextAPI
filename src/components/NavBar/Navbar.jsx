@@ -28,7 +28,7 @@ export default function Navbar() {
         <>
             <GlobalInfo.Provider value={{ appColor: bodyColor, bodyColor: bgColor }}>
                 <div className="navbar">
-                    <Link to="/">Homepage</Link>
+                    <Link to="/">Home Page</Link>
                     <Link to="/about">About Page</Link>
                     <Link to="/logout">Logout</Link>
                 </div>
